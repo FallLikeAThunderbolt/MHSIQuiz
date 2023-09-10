@@ -4,6 +4,10 @@ body, h1, h2, p, form, label, input {
     padding: 0;
 }
 
+.back-link {
+    cursor: pointer;
+}
+
 /* Basic styling for the entire quiz page */
 body {
     font-family: Arial, sans-serif;

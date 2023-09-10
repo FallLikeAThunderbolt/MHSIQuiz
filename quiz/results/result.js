@@ -25,7 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
     resultsText.innerHTML = `<p>${userAssessment}</p>`;
 });
 
-
+const goHomeButton = document.getElementById("goHome")
+goHomeButton.addEventListener("click",function homeHandler() {
+    window.location.href = window.location.href.replace("quiz/results/result.html" , "index.html")
+})
 
 
 
